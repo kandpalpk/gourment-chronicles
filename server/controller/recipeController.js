@@ -23,8 +23,18 @@ exports.homepage = async(req,res) =>{
 }
 
 
-
+/**
+ * GET /about
+ * About
+ */
         
+exports.aboutPage = (req, res) => {
+    res.render('about', { title: 'About Gourmet Chronicles' });
+};
+
+exports.contactPage = (req, res) => {
+    res.render('contact', { title: 'Contact Page' });
+};
 /**
  * GET /Categories
  * Categories
