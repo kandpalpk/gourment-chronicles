@@ -205,18 +205,19 @@ exports.exploreRecipe = async(req,res) =>{
 }    
 
 
+/**
+ * Delete /Recipe 
+ * Recipe
+ */
 
-
-
-
-
-
-
-
-
-
-
-
+exports.deleteRecipe = async (req, res) => {
+    try {
+        await Recipe.findByIdAndDelete(req.params.id);
+        res.status(200).json({ message: 'Recipe deleted successfully' });
+    } catch (error) {
+        res.status(500).json({ message: 'Error deleting recipe', error: error });
+    }
+};
 
 
 
