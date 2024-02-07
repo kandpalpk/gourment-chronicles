@@ -3,28 +3,23 @@ Deployed - https://gourmet-chronicles.onrender.com
 ## Gourmet Chronicles
 
 ### Introduction
-A brief description of what Gourmet Chronicles is about. This should include the main goal or purpose of the project.
+At its core, Gourmet Chronicles serves as a sophisticated food recipe blog, where the main goal is to curate and share a collection of exquisite, high-quality recipes that span a wide range of cuisines, techniques, and ingredients.
 
 ### Technologies Used
-- **EJS**: Explain how EJS is used in the project.
-- **JavaScript**: Detail the role of JavaScript.
-- **CSS**: Describe the styling aspects covered by CSS.
-- **ExpressJS**: Assigning the middlewares, routes and backend
-- **Bootstrap**: Designing beautiful frontend using this CSS framework
+- **EJS**
+- **JavaScript**
+- **CSS**
+- **ExpressJS**
 
 ### Features
 List the key features of Gourmet Chronicles. This could include specific functionalities, user interfaces, or any unique attributes the project has.
 
 ### Installation
-Provide step-by-step instructions on how to install and run the project. This should include:
-1. Cloning the repository.
-2. Installing dependencies.
-3. Running the server or application.
-
-### Usage
-Explain how to use the application. This can include:
-- Navigating the interface.
-- Accessing main features.
+Clone the repository
+Install dependencies: npm install
+Set up a MongoDB database and update the connection details in the database.js file.
+Start the server: npm start
+Visit http://localhost:3000 in your browser.
 
 ---
 
